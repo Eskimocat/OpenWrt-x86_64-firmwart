@@ -15,3 +15,4 @@
 git clone https://github.com/xkstudio/luci-app-pptp-server.git package/luci-app-pptp-server
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus
 git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
+sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
